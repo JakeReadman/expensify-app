@@ -2,17 +2,17 @@
 
 exports[`Should render single ExpenseListItem 1`] = `
 <div>
-  <Link
+  <[object Object]
     to="/edit/2"
   >
     <h3>
       beer
     </h3>
-  </Link>
+  </[object Object]>
   <p>
-    900
-     - 
-    -345600000
+    £9.00
+    -
+    Dec 28th, 1969
   </p>
 </div>
 `;
