@@ -18,5 +18,10 @@ exports[`should render header component 1`] = `
   >
     Create Expense
   </[object Object]>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
