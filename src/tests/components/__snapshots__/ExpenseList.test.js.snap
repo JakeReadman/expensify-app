@@ -1,18 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Should render ExpenseList with empty array message 1`] = `
-<div>
-  <p>
+<div
+  className="content-container list-body"
+>
+  <div
+    className="list-header"
+  >
     No Expenses to Show
-  </p>
+  </div>
 </div>
 `;
 
 exports[`Should render ExpenseList with expenses 1`] = `
-<div>
-  <p>
-    Expenses:
-  </p>
+<div
+  className="content-container list-body"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
   <ExpenseListItem
     amount={6000}
     createdAt={0}
