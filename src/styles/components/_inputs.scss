@@ -6,8 +6,16 @@
   padding: $s-size;
 }
 
+.select:hover {
+  cursor: pointer;
+}
+
 .select {
   @extend .text-input;
+}
+
+.date-picker:hover {
+  cursor: pointer;
 }
 
 .textarea {
